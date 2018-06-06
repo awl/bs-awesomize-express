@@ -473,15 +473,21 @@ browser-resolve@^1.11.2:
   dependencies:
     resolve "1.1.7"
 
-bs-awesomize@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/bs-awesomize/-/bs-awesomize-1.3.0.tgz#cc0bb7f754934acf4e43b1e9a8454d307ac1f039"
+bs-awesomize@^1.4.11:
+  version "1.4.11"
+  resolved "https://registry.yarnpkg.com/bs-awesomize/-/bs-awesomize-1.4.11.tgz#592e0d801f4b37335520f7ea7bcf8498d2e0a871"
+  dependencies:
+    bs-platform "^3.0.0"
 
 bs-express@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/bs-express/-/bs-express-0.6.0.tgz#62e9372a5274c140701e578b0ca5745ce3625205"
   dependencies:
     express "^4.16.3"
+
+bs-platform@^3.0.0, bs-platform@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-3.1.5.tgz#fb34ee4702bc9163848d5537096c4f31ebaeed40"
 
 bser@^2.0.0:
   version "2.0.0"
